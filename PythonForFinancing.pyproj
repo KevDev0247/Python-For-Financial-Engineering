@@ -42,6 +42,9 @@
     <Compile Include="DataFrameSP500.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CorrelationTableSP500.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test.py">
       <SubType>Code</SubType>
     </Compile>
