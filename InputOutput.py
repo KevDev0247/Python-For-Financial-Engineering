@@ -15,6 +15,7 @@ import pandas_datareader.data as web
 df = pd.read_csv('tsla.csv', parse_dates = True, index_col = 0)
 ## print(df.head())
 
+
 print(df[['Open', 'High']])
 
 df['Adj Close'].plot()
