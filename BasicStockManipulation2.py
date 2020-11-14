@@ -1,10 +1,9 @@
-import datetime as dt
 import matplotlib.pyplot as plt
 from matplotlib import style
 import matplotlib.dates as mdates
 from mpl_finance import candlestick_ohlc
 import pandas as pd
-import pandas_datareader.data as web
+
 style.use('ggplot')
 
 df = pd.read_csv('tsla.csv', parse_dates = True, index_col = 0)
